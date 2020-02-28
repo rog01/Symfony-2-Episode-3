@@ -62,6 +62,7 @@ class Event
      */
     protected $owner;
 
+
     /**
      * @Gedmo\Slug(fields={"name"}, updatable=false)
      * @ORM\Column(length=255, unique=true)
@@ -102,6 +103,7 @@ class Event
     {
         return $this->id;
     }
+    
 
     /**
      * Set name

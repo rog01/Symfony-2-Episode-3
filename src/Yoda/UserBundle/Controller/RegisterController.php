@@ -11,7 +11,7 @@ use Yoda\UserBundle\Form\RegisterFormType;
 use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
 
 class RegisterController extends Controller
-{
+{  
     /**
      * @Route("/register", name="user_register")
      * @Template
